@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "833197385996",
+    "firebase_url": "https://simple-app-f47a2.firebaseio.com",
+    "project_id": "simple-app-f47a2",
+    "storage_bucket": "simple-app-f47a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833197385996:android:82fb3c5176a90881738129",
+        "android_client_info": {
+          "package_name": "com.mompi.simpleApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833197385996-5f8n0q4o2g0lr9l6afceue61qg8and7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-9HWLEipPIvUW9rO0GPibA3VFNMNNt48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833197385996-5f8n0q4o2g0lr9l6afceue61qg8and7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
