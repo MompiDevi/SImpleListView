@@ -26,6 +26,7 @@ import android.widget.Toast;
 
 import com.example.recyclerviewwcreation.MainActivity;
 import com.example.recyclerviewwcreation.R;
+import com.example.recyclerviewwcreation.SignUp;
 import com.example.recyclerviewwcreation.ui.login.LoginViewModel;
 import com.example.recyclerviewwcreation.ui.login.LoginViewModelFactory;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -47,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText usernameEditText = findViewById(R.id.username);
         final EditText passwordEditText = findViewById(R.id.password);
         final Button loginButton = findViewById(R.id.login);
+        final Button SignupButton = findViewById(R.id.signUp);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -112,6 +114,14 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 });
+            }
+        });
+
+        SignupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, SignUp.class);
+                startActivity(intent);
             }
         });
     }
